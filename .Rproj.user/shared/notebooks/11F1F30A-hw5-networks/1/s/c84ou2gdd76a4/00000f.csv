@@ -1,0 +1,18 @@
+"0",""
+"0","nc_counties <- get_acs("
+"0","  geography = ""county"","
+"0","  variables = ""B01003_001"",  # Total population"
+"0","  state = ""NC"","
+"0","  geometry = TRUE,"
+"0",") "
+"2","Getting data from the 2019-2023 5-year ACS
+"
+"2","Downloading feature geometry from the Census website.  To cache shapefiles for use in future sessions, set `options(tigris_use_cache = TRUE)`.
+"
+"2","Using FIPS code '37' for state 'NC'
+"
+"2","Warning: error 1 in extracting from zip file"
+"2","Error : Cannot open ""/private/var/folders/01/2t0d3pl54g925873f_9mg0n40000gn/T/RtmpXRSi62""; The source could be corrupt or not supported. See `st_drivers()` for a list of supported formats.
+"
+"2","Error: Your geometry data download failed. Please try again later or check the status of the Census Bureau website at https://www2.census.gov/geo/tiger/
+"

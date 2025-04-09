@@ -1,0 +1,10 @@
+"0","graph = tbl_graph(nodes = nodes, edges = as_tibble(edges), directed = FALSE)"
+"0","graph"
+"1","[38;5;246m# A tbl_graph: 3495 nodes and 2907 edges
+[39m"
+"1","[38;5;246m#
+[39m"
+"1","[38;5;246m# An undirected multigraph with 854 components
+[39m"
+"1","[38;5;246m#
+[39m"

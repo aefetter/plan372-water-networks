@@ -1,0 +1,19 @@
+"0","nodes <- nodes %>%"
+"0","  distinct(nodeID, .keep_all = TRUE) %>%"
+"0","  select(-c(edgeID, start_end)) %>%"
+"0","  st_as_sf(coords = c('X', 'Y')) %>%"
+"0","  st_set_crs(st_crs(edges))"
+"0","nodes"
+"1","Simple feature collection with 3495 features and 1 field"
+"1","
+"
+"1","Geometry type: POINT
+"
+"1","Dimension:     XY
+"
+"1","Bounding box:  "
+"1","xmin: 7.603752 ymin: 51.94993 xmax: 7.640352 ymax: 51.97241"
+"1","
+"
+"1","Geodetic CRS:  WGS 84
+"

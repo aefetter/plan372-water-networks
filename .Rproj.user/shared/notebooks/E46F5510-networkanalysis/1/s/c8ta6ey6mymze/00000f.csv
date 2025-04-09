@@ -1,0 +1,19 @@
+"0","graph %>%"
+"0","  activate(edges) %>%"
+"0","  as_tibble() %>%"
+"0","  st_as_sf() %>%"
+"0","  group_by(highway) %>%"
+"0","  summarise(length = sum(length))"
+"1","Simple feature collection with 15 features and 2 fields"
+"1","
+"
+"1","Geometry type: GEOMETRY
+"
+"1","Dimension:     XY
+"
+"1","Bounding box:  "
+"1","xmin: 7.603752 ymin: 51.94993 xmax: 7.640352 ymax: 51.97241"
+"1","
+"
+"1","Geodetic CRS:  WGS 84
+"

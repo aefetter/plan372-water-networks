@@ -1,0 +1,3 @@
+"0","ggplot() +"
+"0","  geom_sf(data = graph %>% activate(edges) %>% as_tibble() %>% st_as_sf()) + "
+"0","  geom_sf(data = graph %>% activate(nodes) %>% as_tibble() %>% st_as_sf(), size = 0.5)"

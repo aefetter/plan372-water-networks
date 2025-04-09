@@ -1,0 +1,5 @@
+"0","#done by the edges"
+"0","ggplot() +"
+"0","  geom_sf(data = graph %>% activate(edges) %>% as_tibble() %>% st_as_sf(), aes(col = betweenness, size = betweenness)) +"
+"0","  scale_colour_viridis_c(option = 'inferno') +"
+"0","  scale_size_continuous(range = c(0,4))"
