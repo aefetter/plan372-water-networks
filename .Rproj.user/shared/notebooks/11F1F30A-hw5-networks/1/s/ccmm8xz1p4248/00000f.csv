@@ -1,8 +1,0 @@
-"0","tmap_mode('view')"
-"2","[38;5;232m[36mℹ[38;5;232m tmap mode set to [34m""view""[38;5;232m.[39m"
-"0","tm_shape(network_graph %>% activate(edges) %>% as_tibble() %>% st_as_sf()) +"
-"0","  tm_lines() +"
-"0","tm_shape(network_graph %>% activate(nodes) %>% as_tibble() %>% st_as_sf()) +"
-"0","  tm_dots() +"
-"0","tmap_options(basemaps = 'OpenStreetMap')"
-"2","[38;5;232m[32m[v3->v4][38;5;232m `tmap_options()`: use basemap.server instead of basemaps[39m"
